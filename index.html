@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog Homepage</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="mainav">
+            <div class="nav">
+                <a class="active" href="#home">Home</a>
+                <a href="#">About</a>
+                <a href="#">Search</a>
+                <a class="blog" href="blog.html">Blog</a>
+            </div>
+            
+            <div class="sub">
+                <a href="#emailform">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="container">
+            
+                <div class="blogposttitle">
+                    <h1>Photography: Perspective and Empathy</h1>
+                </div>
+
+                <!--card-->
+                <div class="card">
+                    <h2 id="cardtitle">Take Another Look</h2>
+                    <p id="look">Looking at the world through the different prespectives of others can not only serve to help us develop empathy <em>and</em> appreciate diversity, it also keeps us from becoming stagnant in our views of the world. Empathy fosters our humanity mucscles, which in turn helps to create a much better and peaceful world.</p>
+                </div>
+
+                <!--image-->
+                <div class="img">
+                    <img src="img/glass.jpg" alt="Image through a glass in a man's hand" width="95%" height="90%">
+                </div>
+                
+                <!--buttons-->
+                <div class="button">
+                    <button>Photography</button>
+                    <button>Perspectives</button>
+                    <button>Empathy</button>
+                </div>
+                <hr>
+                <blockquote>
+                    <h3>“I think we all have empathy. We may not have enough courage to display it.” <br><br>-Maya Angelou
+                    </h3>
+                </blockquote><br>
+                
+                <div class="box">
+                    <h2>Subscribe to Our Blog</h2>
+                    <form id="emailform">
+                        <label id="labele" for="email">Email:</label><br>
+                        <input type="text" id="email" name="email" value="Ex: name@youremail.com"><br><br>
+                        <div class="checkconsent">
+                            <input type="checkbox" id="consent" name="consent" value="consent">
+                            <label  id="labelc" for="consent">I agree to receive weekly updates.
+                            </label>
+                        </div>
+                        <div class="capsub">
+                            <img id="captcha" src="img/recaptcha_rect.jpg">
+                            <input type="submit" id="submit" value="submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="foot">
+                    <div class="linksa">
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="copy">
+                        &copy; 2024 | Personal Blog Website
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

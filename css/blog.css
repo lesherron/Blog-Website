@@ -1,0 +1,65 @@
+@import "style.css";
+
+.bgcontainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2px;
+    background-color: linen;
+    grid-gap: 1px;
+    padding: 10px;
+} 
+
+.header {
+    background-color: rgb(6, 16, 105);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.header li {
+    list-style-type: none;
+    float: right;
+}
+
+.home {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 12px;
+}
+
+.title {
+    font-size: 28px;
+    margin: 16px 12px;
+}
+
+.details {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.auth {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.auth li {
+    list-style-type: none;
+}
+
+.social {
+    margin: -2px 22px;
+}
+
+.social a {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+ 

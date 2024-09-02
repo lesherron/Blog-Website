@@ -1,0 +1,28 @@
+.foot {
+    position:relative;
+    height: 80px;
+    background-color: rgb(6, 16, 105);
+}
+
+.linksa {
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.linksa a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 0 3px;
+    margin: 10px 6px;
+}
+
+div.copy {
+    font-size: 10px;;
+    position: absolute;
+    bottom: 0;
+    letter-spacing: 2px;
+    margin: 4px;
+    color: rgb(255, 255, 255);
+}
